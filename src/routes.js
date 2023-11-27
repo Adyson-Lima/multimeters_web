@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Multimeters from './pages/Multimeters';
-import NewUpdate from './pages/NewUpdate';
+// import NewUpdate from './pages/NewUpdate';
 
 export default function MultimetersRouter(){
   return(
