@@ -10,10 +10,28 @@ export default function Multimeters(){
       </div>
       <div className="card-body">
 
-      <Link data-testid="mylink" className="btn btn-success" style={{marginBottom: '10px'}}
-          to="/newupdate/0">Novo
-      </Link>
+        <Link data-testid="mylink" className="btn btn-success" style={{marginBottom: '10px'}}
+            to="/newupdate/0">Novo
+        </Link>
 
+        <table data-testid="mytable" className="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">##</th>
+                <th scope="col">##</th>
+                <th scope="col">##</th>
+                <th scope="col">##</th>
+              </tr>
+            </thead>
+            <tbody>            
+              <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>        
+            </tbody>
+        </table>
       </div>
     </div>
   );
