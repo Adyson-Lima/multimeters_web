@@ -15,6 +15,12 @@ export default function NewUpdate(){
 
         <form data-testid="myform">
 
+        <div className="form-group">
+          <label htmlFor="###">###</label>
+          <input data-testid="input1" id="###" type="text" style={{marginBottom: '20px'}} 
+          className="form-control" placeholder="###"></input>
+        </div>
+
         </form>
 
       </div>
