@@ -15,17 +15,20 @@ export default function NewUpdate(){
 
         <form data-testid="myform">
 
-        <div className="form-group">
-          <label htmlFor="###">###</label>
-          <input data-testid="input1" id="###" type="text" style={{marginBottom: '20px'}} 
-          className="form-control" placeholder="###"></input>
-        </div>
+          <div className="form-group">
+            <label htmlFor="###">###</label>
+            <input data-testid="input1" id="###" type="text" style={{marginBottom: '20px'}} 
+            className="form-control" placeholder="###"></input>
+          </div>
 
-        <div className="form-group">
-          <label htmlFor="###">###</label>
-          <input data-testid="input2" id="###" type="text" style={{marginBottom: '20px'}}
-          className="form-control" placeholder="###"></input>
-        </div>
+          <div className="form-group">
+            <label htmlFor="###">###</label>
+            <input data-testid="input2" id="###" type="text" style={{marginBottom: '20px'}}
+            className="form-control" placeholder="###"></input>
+          </div>
+
+          <button data-testid="btnenviar" 
+          type="submit" className="btn btn-primary">Enviar</button>
 
         </form>
 
