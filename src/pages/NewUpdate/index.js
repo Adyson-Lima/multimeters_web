@@ -13,6 +13,10 @@ export default function NewUpdate(){
         <Link data-testid="mylink" className="btn btn-dark" 
         style={{marginBottom: '5px'}} to="/">Home</Link>
 
+        <form data-testid="myform">
+
+        </form>
+
       </div>
     </div>
   );
