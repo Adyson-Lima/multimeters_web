@@ -28,6 +28,10 @@ describe("Testes da tela Multimeters", () => {
     expect(screen.getByTestId("mybtn1")).toBeInTheDocument();
   });
 
+  it('Existe botão Excluir em Multimeters?', () => {
+    expect(screen.getByTestId("mybtn2")).toBeInTheDocument();
+  });
+
 });
 
 
