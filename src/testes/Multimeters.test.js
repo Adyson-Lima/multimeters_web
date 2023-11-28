@@ -24,6 +24,10 @@ describe("Testes da tela Multimeters", () => {
     expect(screen.getByTestId("mytable")).toBeInTheDocument();
   });
 
+  it('Existe botão Editar em Multimeters?', () => {
+    expect(screen.getByTestId("mybtn1")).toBeInTheDocument();
+  });
+
 });
 
 
