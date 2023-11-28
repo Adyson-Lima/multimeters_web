@@ -20,6 +20,10 @@ describe("Testes da tela Multimeters", () => {
     expect(screen.getByTestId("mylink")).toBeInTheDocument();
   });
 
+  it('Existe tabela em Multimeters?', () => {
+    expect(screen.getByTestId("mytable")).toBeInTheDocument();
+  });
+
 });
 
 
