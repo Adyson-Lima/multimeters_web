@@ -16,7 +16,7 @@ describe("Testes da tela Multimeters", () => {
     expect(screen.getByTestId("mycard")).toBeInTheDocument();
   });
 
-  it('Existe Link Novo em Multimeters?', () => {
+  it('Existe link Novo em Multimeters?', () => {
     expect(screen.getByTestId("mylink")).toBeInTheDocument();
   });
 

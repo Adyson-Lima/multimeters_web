@@ -10,6 +10,10 @@ export default function Multimeters(){
       </div>
       <div className="card-body">
 
+      <Link data-testid="mylink" className="btn btn-success" style={{marginBottom: '10px'}}
+          to="/newupdate/0">Novo
+      </Link>
+
       </div>
     </div>
   );
