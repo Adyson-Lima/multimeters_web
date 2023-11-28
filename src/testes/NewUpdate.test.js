@@ -26,6 +26,10 @@ describe('Testes da tela NewUpdate', () => {
 
   it('Existe input1 em NewUpdate?', () => {
     expect(screen.getByTestId("input1")).toBeInTheDocument();
-  })
+  });
+
+  it('Existe input2 em NewUpdate?', () => {
+    expect(screen.getByTestId("input2")).toBeInTheDocument();
+  });
 
 });
